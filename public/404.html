@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Opening the collection…</title>
+    <script>
+      // Keep the path, query, and hash intact when GitHub Pages serves a deep link.
+      var base = "/mp2/";
+      var route = location.pathname + location.search + location.hash;
+      location.replace(base + "?__route=" + encodeURIComponent(route));
+    </script>
+  </head>
+  <body>
+    <p>Opening the artwork… <a href="/mp2/">Return to the collection</a></p>
+  </body>
+</html>
